@@ -3,6 +3,8 @@
 sudo yum update -y
 sudo yum install -y httpd
 sudo yum install -y git
+sudo amazon-linux-extras install -y epel
+sudo yum –y install stress
 export META_INST_ID=`curl http://169.254.169.254/latest/meta-data/instance-id`
 export META_INST_TYPE=`curl http://169.254.169.254/latest/meta-data/instance-type`
 export META_INST_AZ=`curl http://169.254.169.254/latest/meta-data/placement/availability-zone`
