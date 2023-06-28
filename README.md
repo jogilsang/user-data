@@ -102,3 +102,4 @@ echo "</body>" >> index.html
 echo "</html>" >> index.html
 sudo service httpd start
 sudo systemctl enable httpd
+sudo yum -y install mysql
