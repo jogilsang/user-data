@@ -5,17 +5,9 @@
             "Effect": "Allow",
             "Principal": {
                 "AWS": [
-                        "arn:aws:iam::497910815151:root"
-                        ,"arn:aws:iam::732202567496:root"
-                        ,"arn:aws:iam::607707759175:root"
-                        ,"arn:aws:iam::280177910966:root"
-                        ,"arn:aws:iam::045449903505:root"
-                        ,"arn:aws:iam::940725529830:root"
-                        ,"arn:aws:iam::341011258984:root"
-                        ,"arn:aws:iam::018291865230:root"
-                        ,"arn:aws:iam::751387532501:root"
-                        ,"arn:aws:iam::188341817649:root"
-                        ,"arn:aws:iam::486622056529:root"
+                        "arn:aws:iam::00000000:root"
+                        ,"arn:aws:iam::00000000:root"
+                        ,"arn:aws:iam::00000000:root"
                     ]
             },
             "Action": "sts:AssumeRole",
